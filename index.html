@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hours left · Design partner</title>
+    <meta
+      name="description"
+      content="Hours remaining until 7 October. One real design partner, onboarded."
+    />
+    <meta name="theme-color" content="#111114" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111114'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%235B4EF2'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"></div>
+    <div class="grid" aria-hidden="true"></div>
+
+    <div class="window-bar" aria-hidden="true">
+      <div class="window-bar-fill" id="window-fill"></div>
+    </div>
+
+    <header class="top">
+      <img class="logo" src="logo.svg" alt="Eidetix" />
+      <div class="status">
+        <span class="pulse" aria-hidden="true"></span>
+        <span id="status-label">Live</span>
+      </div>
+    </header>
+
+    <main>
+      <p class="eyebrow">Design partner</p>
+
+      <div class="hours-block">
+        <div
+          class="hours"
+          id="hours"
+          aria-live="polite"
+          aria-atomic="true"
+        ></div>
+        <p class="hours-label" id="hours-label">Hours left</p>
+      </div>
+
+      <p class="thesis" id="thesis">
+        One real design partner onboarded.<br />
+        Not a conversation. A working engagement.
+      </p>
+
+      <div class="units" id="units" aria-hidden="true"></div>
+    </main>
+
+    <footer class="bottom">
+      <span>07 October 2026</span>
+      <span class="rule" aria-hidden="true"></span>
+      <span>The clock does not pause</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
