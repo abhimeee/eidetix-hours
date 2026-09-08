@@ -14,6 +14,8 @@ Or open `index.html` directly.
 
 ## Hosting
 
-This is static files. Push to GitHub Pages, or drop the folder on [Cloudflare Pages](https://pages.cloudflare.com), [Netlify](https://app.netlify.com/drop), or Vercel. No build step.
+Live: https://abhimeee.github.io/eidetix-hours/
+
+Static files. GitHub Pages is already on. You can also drop the folder on [Cloudflare Pages](https://pages.cloudflare.com), [Netlify](https://app.netlify.com/drop), or Vercel. No build step.
 
 Deadline lives in `app.js` as `DEADLINE`.
